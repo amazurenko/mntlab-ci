@@ -1,9 +1,9 @@
 def mntgroup = [
-    [ host:"EPBYMINW1374", sstudent:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW1374", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW1766", student:"Yauhen Khodzin", branch: "ykhodzin" ],
     [ host:"EPBYMINW1969", student:"Aliaksei Kunitski", branch: "akunitski" ],
     [ host:"EPBYMINW2033", student:"Kanstantsin Klimov", branch: "kklimov" ],
-    [ host:"EPBYMINW2466", sstudent:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW2466", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW2467", student:"amazurenko4tests", branch: "nname" ],
     [ host:"EPBYMINW2468", student:"Ihar Filimonau", branch: "ifilimonau" ],
     [ host:"EPBYMINW2470", student:"Aliaksandr Lahutsin", branch: "alahutsin" ],
