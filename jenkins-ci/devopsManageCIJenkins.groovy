@@ -53,7 +53,7 @@ def makeJobs = { group, tasks ->
                           else {
                               url("https://github.com/MNT-Lab/mntlab-dsl.git") 
                           }
-                            credentials('amazurenko4tests-token')
+                            credentials('mntlabepam-jenkins-username-token')
                           }
                         
                          branch(item.branch)
