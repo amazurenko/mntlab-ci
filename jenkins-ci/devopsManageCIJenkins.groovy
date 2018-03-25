@@ -1,29 +1,27 @@
 def mntgroup = [
-    [ host:"EPBYMINW1374", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW1766", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW1969", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2033", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2466", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2467", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2468", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2470", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2471", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2472", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2473", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2629", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW1374", sstudent:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW1766", student:"Yauhen Khodzin", branch: "ykhodzin" ],
+    [ host:"EPBYMINW1969", student:"Aliaksei Kunitski", branch: "akunitski" ],
+    [ host:"EPBYMINW2033", student:"Kanstantsin Klimov", branch: "kklimov" ],
+    [ host:"EPBYMINW2466", sstudent:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW2467", student:"amazurenko4tests", branch: "nname" ],
+    [ host:"EPBYMINW2468", student:"Ihar Filimonau", branch: "ifilimonau" ],
+    [ host:"EPBYMINW2470", student:"Aliaksandr Lahutsin", branch: "alahutsin" ],
+    [ host:"EPBYMINW2471", student:"Uladzislau Valchkou", branch: "uvalchkou" ],
+    [ host:"EPBYMINW2472", student:"Aleksandr Matiev", branch: "amatiev" ],
+    [ host:"EPBYMINW2473", student:"Aleh Yarmalovich", branch: "ayarmalovich" ],
+    [ host:"EPBYMINW2629", student:"Nikita Buzin", branch: "nbuzin" ],
     [ host:"EPBYMINW2695", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2976", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW2976", student:"Aliaksandr Chernak", branch: "achernak" ],
     [ host:"EPBYMINW3088", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW3092", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW3093", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW3093", student:"Aliaksei Semirski", branch: "asemirski" ],
     [ host:"EPBYMINW6405", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW6406", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW7425", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW7423", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW7296", student:"No Name", branch: "nname" ]   
+    [ host:"EPBYMINW6406", student:"Valery Peshchanka", branch: "vpeshchanka" ],
+    [ host:"EPBYMINW7425", student:"Aliaksandr Zaitsau", branch: "azaitsau" ],
+    [ host:"EPBYMINW7423", student:"Hanna Kavaliova", branch: "hkavaliova" ],
+    [ host:"EPBYMINW7296", student:"Pavel Kislouski", branch: "pkislouski" ]    
 ]
-
-def mntgroup = []
 
 def job_name = "mntlab-ci"
 def makeJobs = { group, tasks ->
