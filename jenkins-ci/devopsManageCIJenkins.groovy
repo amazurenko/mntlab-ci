@@ -17,7 +17,8 @@ def mntgroup = [
     [ host:"EPBYMINW3092", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW3093", student:"Aliaksei Semirski", branch: "asemirski" ],
     [ host:"EPBYMINW6405", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW6406", student:"Valery Peshchanka", branch: "vpeshchanka" ],
+    [ host:"EPBYMINW6406", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW6593", student:"Valery Peshchanka", branch: "vpeshchanka" ],
     [ host:"EPBYMINW7425", student:"Aliaksandr Zaitsau", branch: "azaitsau" ],
     [ host:"EPBYMINW7423", student:"Hanna Kavaliova", branch: "hkavaliova" ],
     [ host:"EPBYMINW7296", student:"Pavel Kislouski", branch: "pkislouski" ]    
