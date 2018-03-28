@@ -46,7 +46,6 @@ def makeJobs = { group, tasks ->
                     scriptPath("Jenkinsfile")
                   scm {
                       git {
-                         remote { 
                           if (task == "pipeline") { 
                               remote { 
                                   url("https://github.com/MNT-Lab/mntlab-pipeline.git") 
