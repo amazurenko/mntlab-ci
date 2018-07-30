@@ -54,10 +54,10 @@ def makeJobs = { group, tasks ->
                       git {
                          remote { 
                           if (task == "pipeline") { 
-                              url("https://github.com/MNT-Lab/mntlab-pipeline.git") 
+                              url("https://github.com/MNT-Lab/p323line.git") 
                           } 
                           else {
-                              url("https://github.com/MNT-Lab/mntlab-dsl.git") 
+                              url("https://github.com/MNT-Lab/d323dsl.git") 
                           }
                             credentials('mntlabepam-jenkins-username-token')
                           }
