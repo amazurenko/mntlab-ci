@@ -41,7 +41,7 @@ def makeJobs = { group, tasks ->
             SLAVE: item.host
           ]) }
           triggers {
-              scm('*/2 * * * *')
+              scm('H/30 * * * *')
           }
           definition {
             cpsScm {
