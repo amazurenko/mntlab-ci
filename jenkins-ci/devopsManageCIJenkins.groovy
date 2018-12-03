@@ -65,8 +65,11 @@ def makeJobs = { group, tasks ->
                           if (task == "pipeline") { 
                               url("https://github.com/MNT-Lab/mntlab-pipeline.git") 
                           } 
-                          else {
+                          else if (task == "dsl") {
                               url("https://github.com/MNT-Lab/mntlab-dsl.git") 
+                          }
+                          else {
+                              url("https://github.com/MNT-Lab/groovy-tasks.git")
                           }
                             credentials('mntlabepam-jenkins-username-token')
                           }
@@ -101,7 +104,7 @@ def makeViews = { group, tasks ->
   }
 }
 
-def days = ["dsl",  "pipeline"]
+def days = ["dsl",  "pipeline", "groovy-tasks"]
 
 makeJobs(mntgroup, days)
 makeViews(mntgroup, days)
