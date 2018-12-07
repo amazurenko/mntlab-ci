@@ -63,10 +63,10 @@ def makeJobs = { group, tasks ->
                       git {
                          remote { 
                           if (task == "pipeline") { 
-                              url("https://github.com/MNT-Lab/mntlab-pipeline.git") 
+                              url("https://github.com/MNT-Lab/pipe333line.git") 
                           } 
                           else if (task == "dsl") {
-                              url("https://github.com/MNT-Lab/mntlab-dsl.git") 
+                              url("https://github.com/MNT-Lab/d333l-lab.git") 
                           }
                           else {
                               url("https://github.com/MNT-Lab/groovy-tasks.git")
