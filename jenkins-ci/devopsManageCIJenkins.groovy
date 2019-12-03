@@ -1,26 +1,22 @@
 def mntgroup = [
-    [ host:"EPBYMINW1374", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW1766", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW1969", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2033", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2466", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2467", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2468", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2470", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2471", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2472", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2473", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2629", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2695", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2976", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW3088", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW3092", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW3093", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW6405", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW6406", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW7425", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW7423", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW7296", student:"No Name", branch: "nname" ]   
+    [ host:"EPBYMINW4141", student:"Anton Pavlovsky", branch: "apavlovsky" ],
+    [ host:"EPBYMINW5961", student:"Aleksandr Shkraba", branch: "ashkraba" ],
+    [ host:"EPBYMINW6229", student:"Vladislav Tarasevich", branch: "vtarasevich" ],
+    [ host:"EPBYMINW6852", student:"Mikhail Elizarov", branch: "melizarov" ],
+    [ host:"EPBYMINW7240", student:"Andrei Nikitsenka", branch: "anikitsenka" ],
+    [ host:"EPBYMINW7785", student:"Andrei Shvedau", branch: "ashvedau" ],
+    [ host:"EPBYMINW8538", student:"Dzmitry Prusevich", branch: "dprusevich" ],
+    [ host:"EPBYMINW8778", student:"Pavel Hardzeyeu", branch: "phardzeyeu" ],
+    [ host:"EPBYMINW9093", student:"Igor Gantman", branch: "igantman" ],
+    [ host:"EPBYMINW9128", student:"Stsiapan Hanchar", branch: "shanchar" ],
+    [ host:"EPBYMINW9137", student:"Sergei Kudrenko", branch: "skudrenko" ],
+    [ host:"EPBYMINW9138", student:"Yury Kachatkou", branch: "ykachatkou" ],
+    [ host:"EPBYMINW9139", student:"Yauheni Matveichyk", branch: "ymatveichyk" ],
+    [ host:"EPBYMINW9140", student:"Vitali Markau", branch: "vmarkau" ],
+    [ host:"EPBYMINW9141", student:"Igor Bletsko", branch: "ibletsko" ],
+    [ host:"EPBYMINW9146", student:"Anton Yanchuk", branch: "ayanchuk" ],
+    [ host:"EPBYMINW9147", student:"Egor Komarov", branch: "ekomarov" ],
+    [ host:"EPBYMINW9149", student:"Aliaksandr Miasnikovich", branch: "amiasnikovich" ]
 ]
 
 def mntgroup = []
@@ -50,10 +46,10 @@ def makeJobs = { group, tasks ->
                       git {
                          remote { 
                           if (task == "pipeline") { 
-                              url("https://github.com/MNT-Lab/mntlab-pipeline.git") 
+                              url("https://github.com/MNT-Lab/p193e-module.git")
                           } 
                           else {
-                              url("https://github.com/MNT-Lab/mntlab-dsl.git") 
+                              url("https://github.com/MNT-Lab/d193l-module.git")
                           }
                             credentials('mntlabepam-jenkins-username-token')
                           }
