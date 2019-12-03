@@ -1,32 +1,33 @@
 def mntgroup = [
-    [ host:"EPBYMINW3088", student:"Yauheni Sokal", branch: "ysokal" ],
-    [ host:"EPBYMINW2470", student:"Aliaksandr Patapniou", branch: "apatapniou" ],
-    [ host:"EPBYMINW2629", student:"Uladzimir Kuchynski", branch: "ukuchynski" ],
-    [ host:"EPBYMINW2466", student:"Siarhei Tsitou", branch: "stsitou" ],
-    [ host:"EPBYMINW1374", student:"Mikhail Piatliou", branch: "mpiatliou" ],
-    [ host:"EPBYMINW2472", student:"Hleb Viniarski", branch: "hviniarski" ],
-    [ host:"EPBYMINW1969", student:"Darya Zhukova", branch: "dzhukova" ],
-    [ host:"EPBYMINW2467", student:"Aliaksandr Kavaleu", branch: "akavaleu" ], 
-    [ host:"EPBYMINW2473", student:"Kanstantsin Novichuk", branch: "knovichuk" ],
-    [ host:"EPBYMINW2695", student:"Aliaksandr Aranski", branch: "aaranski" ],
-    [ host:"EPBYMINW2033", student:"Oleg Monko", branch: "omonko" ],
-    [ host:"EPBYMINW1766", student:"Yauheni Papkou", branch: "ypapkou" ],
-    [ host:"EPBYMINW7425", student:"Mikhail Znak", branch: "mznak" ],
-    [ host:"EPBYMINW7423", student:"Andrei Andryieuski", branch: "aandryieuski" ],
-    [ host:"EPBYMINW0501", student:"Daniil Isakau", branch: "disakau" ],
-    
+    [ host:"EPBYMINW2470", student:"Dzmitry Yurchanka", branch: "dyurchanka" ],
+    [ host:"EPBYMINW1374", student:"Raman Bahatyrou", branch: "morbid98" ],
+    [ host:"EPBYMINW2472", student:"Yuliya Yemelyanovich", branch: "YuliyaYemelyanovich" ],
+    [ host:"EPBYMINW2473", student:"Yauheni Dzmitryieu", branch: "bon3142" ],
+    [ host:"EPBYMINW2033", student:"Viachaslau Kuftyrau", branch: "kftrv" ],
+    [ host:"EPBYMINW2471", student:"Filip Chkhaidze", branch: "filler36" ],
+    [ host:"EPBYMINW6122", student:"Aliaksandr Ramanovich", branch: "xander-rom" ],
+    [ host:"EPBYMINW7423", student:"Ilya Khrysanfau", branch: "Hrisanfov" ],
+    [ host:"EPBYMINW7296", student:"Aliaksei Tsyuliou", branch: "Tsyuliou" ],
+    [ host:"EPBYMINW0501", student:"Pavel Sauchanka", branch: "Pursu1tOfHapp1ness" ],
+    [ host:"EPBYMINW2629", student:"Sergei TiT", branch: "ttsrg" ],
+    [ host:"EPBYMINW2476", student:"Andrei Charviakou", branch: "XxXantivirusXxX" ],
+    [ host:"EPBYMINW5878", student:"Natallia Shynkevich", branch: "fdc333447" ]
+
 /*
+    [ host:"EPBYMINW3088", student:"No Name", branch: "nname"],
+    [ host:"EPBYMINW2466", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW1969", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW2467", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW2695", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW1766", student:"No Name", branch: "nname" ],
+    [ host:"EPBYMINW7425", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW2468", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW2471", student:"No Name", branch: "nname" ],
-    [ host:"EPBYMINW6122", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW3092", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW3093", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW6405", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW6406", student:"No Name", branch: "nname" ],
     [ host:"EPBYMINW6593", student:"No Name", branch: "nname" ],
-*/
-    [ host:"EPBYMINW7296", student:"Yauheni Maniukevich", branch: "ymaniukevich" ]  
-  
+  */
 ]
 
 def job_name = "mntlab-ci"
